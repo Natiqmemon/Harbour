@@ -1,0 +1,143 @@
+/* body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+} */
+
+@media screen and (max-width: 991px) {
+    .navbar-container {
+        grid-template-columns: auto 1fr;
+
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.header {
+  background-color: #f0fff0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  background-color:#fffc35;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-and-name {
+  background-color: #3b3b1e;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.company-name {
+  text-transform: uppercase;
+  color:#fffc35 ;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  font-size: 18px;
+}
+
+.nav-item {
+  color: #3b3b1e;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #555;
+}
+
+.apply-button {
+  background-color: #3b3b1e;
+  color: rgb(255, 252, 73);
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #555;
+}
+
+.hero-section {
+  background-color: #f0fff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 80px 20px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  color: #3b3b1e;
+  font-size: 3.5em;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  color: #3b3b1e;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #3b3b1e;
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #555;
+}
+
+/* For smaller screens, adjust font sizes */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5em;
+  }
+  .hero-subtitle {
+    font-size: 1em;
+  }
+}
