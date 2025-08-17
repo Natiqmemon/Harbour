@@ -82,6 +82,7 @@ body{
 
 .hero-section {
   background-color: #fff;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1186,6 +1187,200 @@ footer h3{
   margin-left: -415px;
 } */
 
-@keyframes up{
+@media (min-width: 768px) {
+    .header-container {
+        padding: 10px 25px;
+    }
+    
+    .mobile-menu-toggle {
+        display: none;
+    }
+    
+    .nav-links {
+        gap: 25px;
+        font-size: 1.1rem;
+    }
+    
+    .apply-button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+ .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
+        font-size: 2.5rem;
+    }
+ .Animated {
+        width: 250px;
+    }
+    
+    .haha, .hehe, .smart2, .testimonials-title {
+        font-size: 2.5rem;
+    }
+    
+    .section1, .section2 {
+        justify-content: space-between;
+    }
+    
+    .card1, .card4 {
+        width: 60%;
+    }
+    
+    .card2, .card3 {
+        width: 35%;
+    }
+    
+    .crds {
+        justify-content: space-between;
+    }
+  .crd1, .crd2, .crd3 {
+        width: 30%;
+    }
+    
+    .cd, .cd2 {
+        max-width: 350px;
+    }
+    
+    .process-title {
+        font-size: 1.8rem;
+    }
+    
+    .comment, .coment, .coent, .cont, .cot, .ct, .t, .c, .o {
+        width: 30%;
+    }
+    
+    .footer-transition {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .hero-illustration {
+        width: 45%;
+        height: 400px;
+    }
+  .container1 {
+        width: 45%;
+        height: 400px;
+    }
+}
 
+@media (min-width: 992px) {
+    .header-container {
+        max-width: 1200px;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+ .h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
+        font-size: 3rem;
+    }
+    
+    .Animated {
+        width: 300px;
+    }
+    
+    .haha, .hehe, .smart2, .testimonials-title {
+        font-size: 3rem;
+    }
+    
+    .card0 {
+        height: 300px;
+    }
+ .card1, .card4 {
+        width: 500px;
+    }
+    
+    .card2, .card3 {
+        width: 350px;
+    }
+    
+    .cd, .cd2 {
+        max-width: 350px;
+    }
+    
+    .comment, .coment, .coent, .cont, .cot, .ct, .t, .c, .o {
+        width: 22%;
+    }
+    
+    .hero-illustration {
+        width: 550px;
+        height: 500px;
+    }
+ .container1 {
+        width: 550px;
+        height: 470px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-section {
+        padding: 100px 0;
+    }
+    
+    .hero-title {
+        font-size: 4rem;
+    }
+    
+    .h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
+        font-size: 3.5rem;
+    }
+ .card0 {
+        max-width: 900px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-and-name {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .h1, .h2, .h3, .h4, .h5, .h6, .h7, .h8 {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    
+  .Animated {
+        width: 120px;
+    }
+}
+
+
+@media (orientation: landscape) and (max-height: 500px) {
+    .hero-section {
+        padding: 30px 0;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    
+    .hero-button {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+  }
 }
